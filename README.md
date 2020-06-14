@@ -1,5 +1,18 @@
 # Workshop-Vue
 
+## Workshop Team 01
+
+## Topic
+
+Vue
+
+## Team Members
+
+1. Akhitha Tumula
+2. Rohan Goud Bhandari
+3. Rethima Polam
+
+
 ## Project setup
 ```
 npm install
