@@ -33,5 +33,10 @@ npm run build
 npm run lint
 ```
 
-### Customize configuration
+### Customize configuratconfigurationion
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+### References
+- [https://cli.vuejs.org/guide/html-and-static-assets.html](https://cli.vuejs.org/guide/html-and-static-assets.html)
+- [https://www.sitepoint.com/vue-cli-intro/](https://www.sitepoint.com/vue-cli-intro/)
+- [https://vuejs.org/v2/guide/](https://vuejs.org/v2/guide/)
