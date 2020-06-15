@@ -1,0 +1,59 @@
+.rohan {
+  margin: 1rem;
+  padding: 2rem;
+  
+}
+.bckgrnd{
+  background-image: url(https://image.shutterstock.com/image-photo/grunge-black-background-texture-space-260nw-373662322.jpg);
+  height: 100%;
+  position: relative;
+  opacity: 0.85;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+/* body{
+  color: white
+} */
+header{
+  padding:10px;
+  color: white;
+  margin-left: 25px;
+  text-align: center;
+}
+
+#body-contact {
+  color: #222;
+}
+.artcle{
+  border : 1px solid white;
+  /* box-shadow: 3px 3px 8px 0px slategray; */
+  border-radius: 15px;
+  padding: 6%;
+  margin: 6%;
+  color:white;
+  max-height: 315px;
+  min-height: 315px;
+}
+
+footer{
+  color:white;
+  text-align: center;
+  padding-top: 20px;
+  
+}
+
+#footer-fixed {
+  position: fixed;
+}
+
+.footer-calc{
+  margin-top:200px;
+}
+h3{
+  color: white;
+  padding: 10px;
+  text-align: center;
+  
+}

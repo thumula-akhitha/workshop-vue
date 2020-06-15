@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Workshop demo</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body id="body-contact" class="bckgrnd">
+    
+    <header>
+        <h1>Temperature Converter Using Vue JS</h1>
+
+    </header>
+    <div class="row" id="area">
+
+        <article class="col-sm-4">
+            <div class="artcle">
+                <fieldset class="mt-2">
+                    <h2>Celsius to Fahrenheit</h2>
+                    <br>
+                    <label for="area1">Enter your name :</label>
+                    <input v-model="area1" id="area1" type="text" class="col-sm-12">
+                </fieldset>
+                <fieldset class="mt-2">
+                    <label for="temp1">Enter Temperature in Celsius :&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                    <input v-model="temp1" id="temp1" class="col-sm-12" @change="fahTemp">
+                </fieldset>
+                <h5>Temperature in {{area1}} is {{result1}}<sup>o</sup>F</h5>
+            </div>
+        </article>
+        <article class="col-sm-4">
+            <div class="artcle">
+                <fieldset class="mt-2">
+                    <h2>Fahrenheit to Celsius</h2>
+                    <br>
+                    <label for="area2">Enter your name :</label>
+                    <input v-model="area2" id="area2" type="text" class="col-sm-12">
+                </fieldset>
+                <fieldset class="mt-2">
+                    <label for="temp2">Enter Temperature in Fahrenheit :&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                    <input v-model="temp2" id="temp2" class="col-sm-12" @change="celsTemp">
+                </fieldset>
+                <h5>Temperature in {{area2}} is {{result2}}<sup>o</sup>C</h5>
+            </div>
+        </article>
+    </div>
+    <footer class="footer-calc">Workshop demo</footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.6.10/vue.js"></script>
+     <script src="temperature-converter.js"></script>
+</body>
+
+</html>
